@@ -9,4 +9,4 @@ This utility is designed to get the thread pool stats in the application. Curren
 - New created threads
 
 The thread pool information and thread dump can be created using MBeans.The Mbeans can be found in MBeans tab in Jconsole or Visual VM at ThreadMbeanStats -> ThreadPoolAgent.
-To use this utility we just need to copy the jar of this project and initialize an object of "com.mbean.stats.starter:CustomMbeanStarter.java" file. This needs to be done only once when the server is started.
+To use this utility we just need to copy the jar of this project and initialize an object of "com.mbean.stats.starter:CustomMbeanStarter.java" file. This needs to be done only once when the server is started. Jar can be downloaded from thread-pool-utility/target. The jar is compiled on JDK7
